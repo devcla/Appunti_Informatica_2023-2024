@@ -1,0 +1,17 @@
+18/09/2023
+INSTALLA XAMPP NELLA PROPRIA CARTELLA UTENTE
+	-apri prompt dei comandi 
+	-vai nella cartella di xamp copiala e incollala dove vuoi
+	-lanciare il file xampp-control.exe
+	-premere config su apache 
+		-aprire file di configurazione uno alla volta
+			-dove ci sono dei percorsi bisogna modificare tutti i path C:/xampp in quello nuovo
+				-per trovare tutti i percorsi meglio usare il find e andare sempre al successivo
+		-finito di sostituire tutto apro il file successivo e ripeto quello svolto prima
+	-premere config su MySQL 
+		-aprire file di configurazione
+			-modificare tutti i vecchi percorsi usando il find
+	-fai partire shell da xampp
+	-fai comando "mysql -uroot -p"
+	-chiede password fai invio
+	-fare comando "show databases;" poi premere invio 
