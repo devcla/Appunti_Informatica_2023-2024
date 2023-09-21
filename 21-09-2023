@@ -1,0 +1,20 @@
+21/09/2023
+
+*quando almeno 1 associazione ce si puo fare anche a meno di metterla ma e sempre meglio mettere la cardinalita completa
+*ci possono essere associazioni N a N quindi esempio
+	*in un film recitano N attori
+	*ogni attore recita in piu film
+	*ce sempre 1 relazione minimo se non e' scritto (1,N)
+	
+*anche e associazioni possono avere degli attributi
+	*in un film un certo ruolo e interpretato da 0 o piu attori
+	*ogni attore interpreta uno o piu ruoli in un film
+		*il ruolo e una proprieta dell'associazione perche non e sempre lo stesso
+		*in quel film interpreto un preciso ruolo quindi e' una proprieta' dell'associazione 
+		
+*quando ho un esercizio lo analizzo
+	*ricerco i sostantivi che solitamente sono delle entita'
+	*ricerco i verbi che solitamente sono delle associazioni
+	*lo schema er puo non essere unico 
+		*se io reputo che manca qualche attributo in una tabella posso aggiungerla ed e una mia ipotesi
+		*1 a N molti a molti molti studenti frequestano molti corsi
