@@ -1,0 +1,75 @@
+19/09/2023
+
+*i dati sono quello che fanno andare avanti un azienda (dati = Sistema Informativo)
+*quando il Sistema Informativo viene informatizzato si chiama Sistema Informatico
+*con gli hard disk meccanici i driver cercano di minimizzare gli spostamenti delle testine 
+	*si cerca di utilizzare uniformemente gli hard disk cosi da non avere una parte dell'hdd che 
+		viene sempre usata mentre alcune mai usate
+*dopo aver fatto il diagramma ER
+	*trasformo il progetto in un modello relazionale
+	*tramite linguaggio sql creo database e faccio query
+
+
+!DOMANDA D'ESAME!
+*che cos-e' un dato o che cos-e' un informazione?
+	*il dato e' qualcosa che noi in un certo momento registriamo, come un numero: 24
+	*da solo 24 non ha nessun significato se e' una misura o una temperatore 
+		inizia ad acquistare valore e quindi diventa un informazione
+		
+*il sistema informativo di un'azienda sono dei dati con un valore
+	*sistema informativo di un'azienda sono informazioni
+
+*la realta da cui prelevo tutte le informazioni e il sistema informativo e da dove io prelevo
+	le informazioni
+	
+FASI 
+*realta: analizzo la realta
+*schema concettuale: schematizzo il problema facendo il progetto
+*schema logico: scelgo un modello logico, come quello relazionale, e trasformo il problema quasi automatico
+*Schema fisico: traduggo il tutto nel linguaggio di programmazione
+
+(il vero problema e passare dalla realta allo schema informativo)
+
+
+*Parto dal progetto e voglio creare il diagramma EA Entita Associazioni (storicamente ER)
+	*le entita sono le tabelle
+	*le associazioni sono le relazioni tra due entita
+		*la parola relazioni la useremo nel passaggio successivo
+		
+		*associazioni rappresentate da un rombo con il nome di quello che associa 
+			*di solito congiungono 2 entita ma puo succedere anche di piu
+			
+		*attributi pallini e il nome dell'attributo
+			*anche le associazioni possono avere un attributo
+			*possono essere semplici ed hanno un valore
+			*potrebbero essere composti come data di nascita(giorno,mese,anno)
+			*potrebbero essere multipli e devo specificare quanti valori conterra'
+				*alcuni attributi possono non servire
+
+*se devo studiare un problema posso fare una tabella per studiare il problema:
+Nome attributo       Descrizione         Tipo Attributo
+
+*dopo faccio il diagramma ER 
+	*devo identificare gli attributi che hanno la chiave che e unica per tutti i componenti dell'entita 
+		*se tra gli attributi che ho trovato non ce ne e nessuno che puo fare da chiave devo inventarmela
+			come la matricola mi serve solo per essere identificato nella scuola per esempio
+	*il nome di un identita e un sostantivo
+	*il nome di una associazione deve essere un sostantivo perche puo essere una tabella
+	*devo indicare le cardinalita'
+		*come un uomo e coniugato con una donna e una donna puo essere coniugato con un uomo con questo vincolo
+			nel database non riusciro a coniugare 2 donne per 1 uomo
+			*questa cardinalita' posso leggerla in qualunque senso
+		*entita classe, entita studente. il fatto e' frequenza nella classe 
+			*una classe e' frequentata da N studenti (leggo da destra verso sinistra, da dove parto leggo il numero dopo)
+			*uno studente frequenta una sola classe
+				!DISCLAIMER!
+				spesso sono al contrario
+			*parto sempre al singolare
+		*se metto due valori
+			*in una squadra giocano almeno da 5 a N giocatori(5,N)
+			*un giocatore puo giocare in 1 e 1 sola squadra(1,1)
+				*se ci fosse stato uno 0 ci potrebbero essere stati dei giocatori che non giocano in nessuna squadra
+				
+			
+		
+		
