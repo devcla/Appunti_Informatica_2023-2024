@@ -1,0 +1,19 @@
+22/09/2023
+
+*Configurare visual studio code per debuggare php
+	*<?php   ?> quando il server trova questo comando esegue quello che ce scritto dentro il tag e dopo 
+		manda la pagina normale
+	*input output in php 
+		*dove stampa gli output? il server le trasmette insieme alla pagina 
+		*il browser riceve solo le istruzioni di output quindi l'echo e come se scrivesse sul browser 
+			*il browser mostra tutto
+			*il broswer si occupa solo di mostrare la le operazioni con il tah php le fa il server
+	*se la pagina viene ricevuta bene ricevo errore 200 senno 404
+	*il browser parla con il server 
+	*applicazione client server 
+	
+	*il client e' il browser 
+	*il web server e' apache che abbiamo lanciato con xampp
+	*tutte le variabili devono iniziare col simbolo $
+	*come faccio ad installare un debugger per php che si integri cn xampp?
+	*https://kodementor.com/configure-xdebug-xampp-and-vscode-in-windows/ come installare xdebug per windows/
